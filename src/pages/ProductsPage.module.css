@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 848px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+@media(max-width:600px){
+  .products{
+    width: 270px;
+  }
+}
